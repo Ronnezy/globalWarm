@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Crisis - Глобальное потепление</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">🌍 ClimateCrisis</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">Что это?</a></li>
+                <li><a href="#problems" class="nav-link">Проблемы</a></li>
+                <li><a href="#history" class="nav-link">История</a></li>
+                <li><a href="#solutions" class="nav-link">Решения</a></li>
+                <li><a href="#calculator" class="nav-link">Калькулятор</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">ГЛОБАЛЬНОЕ ПОТЕПЛЕНИЕ</h1>
+            <p class="hero-subtitle">Планета в опасности. Время действовать!</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Узнать больше</button>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Что такое глобальное потепление?</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <p>Глобальное потепление — это долгосрочное повышение средней температуры климатической системы Земли, происходящее в течение последнего столетия.</p>
+                    <div class="facts">
+                        <div class="fact-item">
+                            <span class="fact-number">+1.1°C</span>
+                            <span class="fact-text">Рост температуры с доиндустриальной эпохи</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">415 ppm</span>
+                            <span class="fact-text">Концентрация CO₂ в атмосфере</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="visual-content">
+                    <div class="temperature-chart">
+                        <div class="chart-bar" style="height: 30%">1900</div>
+                        <div class="chart-bar" style="height: 50%">1950</div>
+                        <div class="chart-bar" style="height: 70%">2000</div>
+                        <div class="chart-bar active" style="height: 100%">2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problems" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Основные проблемы</h2>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">🌡️</div>
+                    <h3>Экстремальные температуры</h3>
+                    <p>Учащение волн жары и аномальных погодных условий</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🌊</div>
+                    <h3>Повышение уровня моря</h3>
+                    <p>Таяние ледников угрожает прибрежным городам</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🔥</div>
+                    <h3>Лесные пожары</h3>
+                    <p>Учащение и усиление природных пожаров</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🐾</div>
+                    <h3>Вымирание видов</h3>
+                    <p>Потеря биоразнообразия из-за изменения климата</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="history" class="section">
+        <div class="container">
+            <h2 class="section-title">История изменения климата</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1850</div>
+                    <div class="timeline-content">
+                        <h3>Начало промышленной революции</h3>
+                        <p>Массовое использование ископаемого топлива</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1958</div>
+                    <div class="timeline-content">
+                        <h3>Измерения CO₂</h3>
+                        <p>Начало регулярных измерений концентрации углекислого газа</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1988</div>
+                    <div class="timeline-content">
+                        <h3>Создание МГЭИК</h3>
+                        <p>Основание Межправительственной группы экспертов по изменению климата</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2015</div>
+                    <div class="timeline-content">
+                        <h3>Парижское соглашение</h3>
+                        <p>Международный договор по борьбе с изменением климата</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Как бороться с потеплением?</h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <h3>🌱 Переход на ВИЭ</h3>
+                    <p>Солнечная, ветровая и гидроэнергетика вместо ископаемого топлива</p>
+                </div>
+                <div class="solution-card">
+                    <h3>🚗 Электромобили</h3>
+                    <p>Отказ от двигателей внутреннего сгорания</p>
+                </div>
+                <div class="solution-card">
+                    <h3>🏠 Энергоэффективность</h3>
+                    <p>Утепление домов и умное потребление энергии</p>
+                </div>
+                <div class="solution-card">
+                    <h3>🌳 Сохранение лесов</h3>
+                    <p>Посадка деревьев и защита существующих лесов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="section">
+        <div class="container">
+            <h2 class="section-title">Калькулятор углеродного следа</h2>
+            <div class="calculator">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label>Пробег на автомобиле (км/месяц):</label>
+                        <input type="number" id="car-distance" value="500">
+                    </div>
+                    <div class="form-group">
+                        <label>Потребление электроэнергии (кВт·ч/месяц):</label>
+                        <input type="number" id="electricity" value="200">
+                    </div>
+                    <div class="form-group">
+                        <label>Авиаперелеты (часов/год):</label>
+                        <input type="number" id="flights" value="10">
+                    </div>
+                    <button onclick="calculateFootprint()" class="calculate-btn">Рассчитать</button>
+                    
+                    <div id="loading" class="loading-hidden">
+                        <div class="spinner"></div>
+                        <p>Рассчитываем ваш углеродный след...</p>
+                    </div>
+                </div>
+                <div class="calculator-result">
+                    <div id="result" class="result-hidden">
+                        <h3>Ваш углеродный след:</h3>
+                        <div id="co2-value" class="co2-value">0 кг CO₂/месяц</div>
+                        <div id="comparison" class="comparison"></div>
+                        <div id="recommendations" class="recommendations"></div>
+                        <div class="breakdown">
+                            <h4>Детализация:</h4>
+                            <ul id="breakdown-list">
+                                <li>🚗 Транспорт: <span id="car-breakdown">0</span> кг CO₂</li>
+                                <li>💡 Электричество: <span id="electricity-breakdown">0</span> кг CO₂</li>
+                                <li>✈️ Перелеты: <span id="flights-breakdown">0</span> кг CO₂</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Climate Crisis Project. Сделано с ❤️ для планеты Земля</p>
+        </div>
+    </footer>
+
+    <script src="/static/css/script.js"></script>
+</body>
+</html>
