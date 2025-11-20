@@ -1,25 +1,13 @@
 # globalWarm
+Проект посвящен глобальному потеплению
 
-Проблема глобального потепления
+Краткое описание:
 
-Опасность глобального потепления
+описываеться глобальное потепление что это такое, чем опасно и как с ним бороться
 
-История глобального потепления
+Проект полезен для понимания глобальных проблем и их устранения
 
-Борьба с глобальным потеплением
+Проект описывает про глобальное потепление и о том как с ним бороться
+В проекте есть также калькулятор
 
-тип проекта:
-сайт
-в шапке ссылки на заголовки, зона с основной информацией, изображения
-парсинг информации
-
-сайты с информацией:
-https://www.un.org/ru/climatechange/science/causes-effects-climate-change
-https://www.un.org/ru/un75/climate-crisis-race-we-can-win
-https://science.mail.ru/articles/2775-globalnoe-poteplenie-chto-eto-za-yavlenie-i-pochemu-ego-opasayutsya/
-
-библиотеки:
-Bs
-Flask
-Jinja
-Requests
+<img width="1394" height="776" alt="изображение" src="https://github.com/user-attachments/assets/12978663-acc7-4c4f-b117-d9330d46a4a9" />
